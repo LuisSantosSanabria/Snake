@@ -29,6 +29,14 @@ let boardSquares;
 let emptySquares;
 let moveInterval;
 
+const createBoard = () => {
+    boardSquares.forEach (row, rowIndex) => {
+        row.forEach (column, columnndex) => {
+            
+        }
+    }
+}
+
 const starGame = () => {
     snake = ['00','01','02','03'];
     score = snake.length;
@@ -38,4 +46,5 @@ const starGame = () => {
     console.log(boardSquares);
     board.innerHTML = '';
     emptySquares = [];
+    createBoard();
 }
